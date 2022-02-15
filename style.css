@@ -31,7 +31,8 @@ a{
     z-index: 1;
     box-shadow: 1px 1px 10px var(--secondary-colour);
     height: 80px;
-    width: var(--width-1280);
+    /* width: var(--width-1280); */
+    max-width: var(--width-1280);
     position: relative;
     left: 0px;
     background-color: var(--primary-colour);
@@ -147,12 +148,13 @@ width: 1920px;
 left: -5947px;
 top: -1251px; */
 
-width: var(--width-1280);
+/* width: var(--width-1280); */
+max-width: var(--width-1280);
 left: -144px;
 border-radius: 0px;
 
 position: relative;
-width: var(--width-1280);
+/* width: var(--width-1280); */
 height: auto;
 
 background: #F7F7F7;
@@ -164,7 +166,9 @@ display: flex;
 
 .main_navigator{
     height: 140px;
-width: var(--width-1280);
+/* width: var(--width-1280);
+ */
+ max-width: var(--width-1280);
 left: 165px;
 top: 14px;
 border-radius: 0px;
@@ -210,6 +214,7 @@ position: absolute;
 .main_hero{
     position: absolute;
 width: var(--width--1220);
+/* max-width: var(--width-1280); */
 /* keep width 1220 for think pad or screen size 1200px */
 height: 691px;
 left: 165px;
@@ -223,7 +228,8 @@ background: #C4C4C4;
     height: 27px;
     left: 164px;
     top: 980px;
-    width: var(--width--1220);
+    /* width: var(--width--1220); */
+    max-width: var(--width-1280);
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
