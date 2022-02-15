@@ -233,6 +233,7 @@ background: #C4C4C4;
     top: 980px;
     /* width: var(--width--1220); */
     max-width: var(--width-1280);
+    margin: auto;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
