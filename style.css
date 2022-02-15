@@ -21,6 +21,7 @@ a{
 }
 .container{
     width: var(--width-1280);
+    max-width: auto;
     
 }
 
