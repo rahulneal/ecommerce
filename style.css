@@ -33,6 +33,7 @@ a{
     height: 80px;
     /* width: var(--width-1280); */
     max-width: var(--width-1280);
+    margin: auto;
     position: relative;
     left: 0px;
     background-color: var(--primary-colour);
@@ -214,6 +215,7 @@ position: absolute;
 .main_hero{
     position: absolute;
 width: var(--width--1220);
+
 /* max-width: var(--width-1280); */
 /* keep width 1220 for think pad or screen size 1200px */
 height: 691px;
