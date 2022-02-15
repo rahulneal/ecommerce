@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header ">
+        <ul class="header_menu container">
+            
+            <li class="mywebsite"><a href="./index.html"><span>MyWebsite</span></a></li>
+
+            <li><input class="searchbar" type="search" placeholder="Search" ></li>
+            <li><button class="login-button"><a href="/login.html">LOGIN</a></button></li>
+            <li>
+                <span class="badge"><a href="./wishlist.html"><img src="./icons/heart (1).png" alt="wishlist"></a></span>
+                <span class="badge-2"><a href="./cart.html"><img src="./icons/shopping-cart.png" alt="cart"></a></span>
+            </li>
+        </ul>
+    </div>
+    <div class="product_container">
+      <div class="product_box">
+          <div class="filter_slider">
+              
+              <h2>Filters<span><a href="#">Clear</a></span></h2>
+              <!-- 
+              
+             
+
+            
+
+            
+          
+               -->
+               <ul>
+                   <li>
+                    <div class="price">
+                        <h4>Price</h4>
+                        <label for="filter_price"></label>
+                        <br>
+                        <input type="range" value="50" name="filter_price" min="0" max="100"></input>
+                    </div>
+
+                   </li>
+                   <li>
+                    <div class="category">
+                        <h4>Category</h4>
+                        <br>
+                        <label for="category"></label>
+                        <input type="checkbox" name="category" id="men_clothing" value="men clothing" placeholder="Men clothing">Men Clothing</input>
+                        <input type="checkbox" checked name="category" id="men_clothing" value="men clothing" placeholder="Men clothing">Men Clothing</input>
+                      </div>
+
+
+                   </li>
+                   <li>
+                    <div class="rating">
+                        <h4>Rating</h4>
+                        <label for="Rating"></label>
+                        <br>
+                        <input type="radio" name="rating" id="rating" placeholder="5 Star" checked>5 Star</input>
+                        <input type="radio" name="rating" id="rating" placeholder="4 Star">4 Star</input>
+                        <input type="radio" name="rating" id="rating" placeholder="3 Star">3 Star</input>
+                        <input type="radio" name="rating" id="rating" placeholder="2 Star">2 Star</input>
+                        <input type="radio" name="rating" id="rating" placeholder="1 Star">1 Star</input>
+                    </div>
+
+
+                   </li>
+
+                   <li>
+
+                    <div class="sort">
+                        <h4>Sort By</h4>
+                        <label for="sort"></label>
+                      <input type="radio" name="sort" id="lowtohigh">Low to High</input>
+                      <input type="radio" name="sort" id="hightolow">High to Low</input>
+                    </div>
+                   </li>
+               </ul>
+
+          </div>
+          <div class="product_display">
+              <h3>Showing All Products <small>(Showing 20 Products)</small></h3>
+                <div class="product_card_a_section">
+                    <ul>
+                        <li>
+                            <div class="product">
+                                <div class="wishlist_card">
+                                    <div class="wishlist_card_div_img">
+                                        <img id="item_img" src="./icons/gzjje_512.jpg" alt="Jersey">
+                                        <button class="wishlist_like_btn">
+                                            <img src="./icons/heart (2).png" alt="like">
+                                        </button>
+                                    </div>
+                                    <small class="wishlist_item_name">
+                                        Men Jacket
+                                    </small>
+                                    <span class="wishlist_item_price">
+                                        $2000
+                                    </span>
+                                    <button class="wishlist_movetocart_btn">
+                                        Move to Cart
+                                    </button>
+                                </div>
+                                
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product">
+                                <div class="wishlist_card">
+                                    <div class="wishlist_card_div_img">
+                                        <img id="item_img" src="./icons/gzjje_512.jpg" alt="Jersey">
+                                        <button class="wishlist_like_btn">
+                                            <img src="./icons/heart (2).png" alt="like">
+                                        </button>
+                                    </div>
+                                    <small class="wishlist_item_name">
+                                        Men Jacket
+                                    </small>
+                                    <span class="wishlist_item_price">
+                                        $2000
+                                    </span>
+                                    <button class="wishlist_movetocart_btn">
+                                        Move to Cart
+                                    </button>
+                                </div>
+                                
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product">
+                                <div class="wishlist_card">
+                                    <div class="wishlist_card_div_img">
+                                        <img id="item_img" src="./icons/gzjje_512.jpg" alt="Jersey">
+                                        <button class="wishlist_like_btn">
+                                            <img src="./icons/heart (2).png" alt="like">
+                                        </button>
+                                    </div>
+                                    <small class="wishlist_item_name">
+                                        Men Jacket
+                                    </small>
+                                    <span class="wishlist_item_price">
+                                        $2000
+                                    </span>
+                                    <button class="wishlist_movetocart_btn">
+                                        Move to Cart
+                                    </button>
+                                </div>
+                                
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product">
+                                <div class="wishlist_card">
+                                    <div class="wishlist_card_div_img">
+                                        <img id="item_img" src="./icons/gzjje_512.jpg" alt="Jersey">
+                                        <button class="wishlist_like_btn">
+                                            <img src="./icons/heart (2).png" alt="like">
+                                        </button>
+                                    </div>
+                                    <small class="wishlist_item_name">
+                                        Men Jacket
+                                    </small>
+                                    <span class="wishlist_item_price">
+                                        $2000
+                                    </span>
+                                    <button class="wishlist_movetocart_btn">
+                                        Move to Cart
+                                    </button>
+                                </div>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product_card_b_section">
+                    <ul>
+                        <li>
+                            <div class="product">
+                                <div class="wishlist_card">
+                                    <div class="wishlist_card_div_img">
+                                        <img id="item_img" src="./icons/gzjje_512.jpg" alt="Jersey">
+                                        <button class="wishlist_like_btn">
+                                            <img src="./icons/heart (2).png" alt="like">
+                                        </button>
+                                    </div>
+                                    <small class="wishlist_item_name">
+                                        Men Jacket
+                                    </small>
+                                    <span class="wishlist_item_price">
+                                        $2000
+                                    </span>
+                                    <button class="wishlist_movetocart_btn">
+                                        Move to Cart
+                                    </button>
+                                </div>
+                                
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product">
+                                <div class="wishlist_card">
+                                    <div class="wishlist_card_div_img">
+                                        <img id="item_img" src="./icons/gzjje_512.jpg" alt="Jersey">
+                                        <button class="wishlist_like_btn">
+                                            <img src="./icons/heart (2).png" alt="like">
+                                        </button>
+                                    </div>
+                                    <small class="wishlist_item_name">
+                                        Men Jacket
+                                    </small>
+                                    <span class="wishlist_item_price">
+                                        $2000
+                                    </span>
+                                    <button class="wishlist_movetocart_btn">
+                                        Move to Cart
+                                    </button>
+                                </div>
+                                
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product">
+                                <div class="wishlist_card">
+                                    <div class="wishlist_card_div_img">
+                                        <img id="item_img" src="./icons/gzjje_512.jpg" alt="Jersey">
+                                        <button class="wishlist_like_btn">
+                                            <img src="./icons/heart (2).png" alt="like">
+                                        </button>
+                                    </div>
+                                    <small class="wishlist_item_name">
+                                        Men Jacket
+                                    </small>
+                                    <span class="wishlist_item_price">
+                                        $2000
+                                    </span>
+                                    <button class="wishlist_movetocart_btn">
+                                        Move to Cart
+                                    </button>
+                                </div>
+                                
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product">
+                                <div class="wishlist_card">
+                                    <div class="wishlist_card_div_img">
+                                        <img id="item_img" src="./icons/gzjje_512.jpg" alt="Jersey">
+                                        <button class="wishlist_like_btn">
+                                            <img src="./icons/heart (2).png" alt="like">
+                                        </button>
+                                    </div>
+                                    <small class="wishlist_item_name">
+                                        Men Jacket
+                                    </small>
+                                    <span class="wishlist_item_price">
+                                        $2000
+                                    </span>
+                                    <button class="wishlist_movetocart_btn">
+                                        Move to Cart
+                                    </button>
+                                </div>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+      </div>  
+    </div>
+    
+</body>
+</html>
