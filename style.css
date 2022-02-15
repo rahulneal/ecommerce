@@ -151,6 +151,7 @@ top: -1251px; */
 
 /* width: var(--width-1280); */
 max-width: var(--width-1280);
+margin: auto;
 left: -144px;
 border-radius: 0px;
 
